@@ -110,16 +110,18 @@ Borrelia hermsii        Borrelia        43321   50586   20449   21921   43322   
 Treponema denticola     Treponema       5059    26974   66      17023   5060    26975   426.935089      2276.002930
 ```
 The field descriptions are as follows:  
-**SpeciesLatin**: Latin name of the species.  
-**GenusLatin**: Latin name of the genus.   
-**SpeciesSMRN**:  Number of strictly reads of the species. Strictly reads are defined as Alignment_score>=30 and match_rate>=0.9 and mismatch_rate<=0.08.  
-**GenusSMRN**: Number of strictly reads of the genus. Strictly reads are defined as Alignment_score>=30 and match_rate>=0.9 and mismatch_rate<=0.08.    
-**SSRN**: Number of unique mapping reads at species level.  
-**GSRN**: Number of unique mapping reads at genus level.   
-**S_count**: Number of total mapping reads at species level.   
-**G_count**: Number of total mapping reads at genus level.  
-**SRPM**: RPM (Reads per million mapped reads) at species level.   
-**GRPM**: RPM (Reads per million mapped reads) at genus level.  
+```
+SpeciesLatin: Latin name of the species.  
+GenusLatin: Latin name of the genus.   
+SpeciesSMRN:  Number of strictly reads of the species. Strictly reads are defined as Alignment_score>=30 and match_rate>=0.9 and mismatch_rate<=0.08.  
+GenusSMRN: Number of strictly reads of the genus. Strictly reads are defined as Alignment_score>=30 and match_rate>=0.9 and mismatch_rate<=0.08.    
+SSRN: Number of unique mapping reads at species level.  
+GSRN: Number of unique mapping reads at genus level.   
+S_count: Number of total mapping reads at species level.   
+G_count: Number of total mapping reads at genus level.  
+SRPM: RPM (Reads per million mapped reads) at species level.   
+GRPM: RPM (Reads per million mapped reads) at genus level.  
+```
 
 `*.reads_out.txt`: Statistical results for pathogen identification.  
 for example:   
@@ -139,12 +141,13 @@ NC_017986.1     6085449 81191   0.667091
 NC_015167.1     3765936 75001   0.995782
 NC_015177.1     4635236 75000   0.809020
 ```
-The field descriptions are as follows:  
-**RefID**: ID of the reference sequence.    
-**Length**: The length of this reference sequence.   
-**mapped_reads**: Number of reads aligned to this reference sequence.   
-**depth**: The average sequencing depth. 
-
+The field descriptions are as follows: 
+```
+RefID: ID of the reference sequence.    
+Length: The length of this reference sequence.   
+mapped_reads: Number of reads aligned to this reference sequence.   
+depth: The average sequencing depth. 
+```
 
 
 
