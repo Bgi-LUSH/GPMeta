@@ -1,0 +1,5 @@
+sam	Staphylococcus_aureus	Staphylococcus_epidermidis	Staphylococcus_hominis	Staphylococcus_haemolyticus
+Staphylococcus_aureus	100	79.401024	79.553833	79.117134
+Staphylococcus_epidermidis	79.401024	100	81.4589	80.129684
+Staphylococcus_hominis	79.553833	81.4589	100	80.443817
+Staphylococcus_haemolyticus	79.117134	80.129684	80.443817	100

@@ -1,0 +1,5 @@
+sam	Escherichia_coli	Shigella_boydii	Shigella_dysenteriae	Shigella_flexneri
+Escherichia_coli	100	98.16153	97.254349	97.707367
+Shigella_boydii	98.16153	100	97.009781	97.872063
+Shigella_dysenteriae	97.254349	97.009781	100	97.0244
+Shigella_flexneri	97.707367	97.872063	97.0244	100

@@ -1,0 +1,5 @@
+soft	time
+GPMetaC	31.106
+GPMeta	30.87
+cuCLARK	35.912
+cuCLARK-l	23.76

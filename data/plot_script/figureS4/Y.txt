@@ -1,0 +1,5 @@
+sam	Yersinia_aldovae	Yersinia_enterocolitica	Yersinia_frederiksenii	Yersinia_pestis
+Yersinia_aldovae	100	85.9883	84.0806	82.6634
+Yersinia_enterocolitica	85.9883	100	85.3719	82.5907
+Yersinia_frederiksenii	84.0806	85.3719	100	82.7911
+Yersinia_pestis	82.6634	82.5907	82.7911	100
