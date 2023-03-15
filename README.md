@@ -5,6 +5,10 @@ A GPU-accelerated method for ultrarapid pathogen identification from metagenomic
 GPMeta is a GPU-accelerated method for ultrarapid pathogen identification from metagenomic sequences. GPMeta can rapidly and accurately remove host contamination, isolate microbial reads, and identify potential disease-causing pathogens. GPMeta is much faster than existing CPU-based tools, being 5-40x faster than Kraken2 and Centrifuge and 25-68x faster than Bwa and Bowtie2 by using a GPU-computing technique.
 ![GPMeta](https://user-images.githubusercontent.com/19549825/166857024-a8b9bd9c-7457-4e09-a4fd-2b63725c8258.png)
 
+## Citation:
+If you use GPMeta in your research, please cite:
+
+[Xuebin Wang, Taifu Wang, et al, GPMeta: a GPU-accelerated method for ultrarapid pathogen identification from metagenomic sequences, Briefings in Bioinformatics, 2023;bbad092, https://doi.org/10.1093/bib/bbad092.](https://doi.org/10.1093/bib/bbad092)
 
 ### Requirements
 GPMeta requires NVIDIA's GPUs，which the sum of the graphics memory of the graphics card needs to be greater than the database size.
