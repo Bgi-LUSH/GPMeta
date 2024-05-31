@@ -19,6 +19,8 @@ GPMeta requires database files in a specific format for sequence alignment. Thes
 host database:      GPMetaIndex human.fasta index_step 0
 pathogen database:  GPMetaIndex pmseq.fasta index_step 1
 
+    index_step:INT step number [3]
+
 Index and generate refhash.bin.
 ```
 #### load the reference database to GPU
